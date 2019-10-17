@@ -1,0 +1,8 @@
+    var box = {};
+		box['material'] = "cardboard";
+		box[0] = "testing 123";
+		box['test'] = "testing 123"
+    
+  	for(var key in box){
+    console.log(box[key]);
+        }
